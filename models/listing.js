@@ -11,15 +11,6 @@ const listingSchema = new Schema ({
     image: {
         filename: String,
         url: String,
-
-
-        // default: "https://unsplash.com/photos/a-person-stands-before-a-large-glowing-figure-egPxRndfLL4",
-        // type:String,
-        // set: (v) => 
-        //     v === ""
-        // ?"https://unsplash.com/photos/a-person-stands-before-a-large-glowing-figure-egPxRndfLL4"
-        // : v,
-
     },
     price: Number,
     location: String,
