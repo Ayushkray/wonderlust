@@ -133,3 +133,9 @@ body {
 .btns{
     display:flex;
 }
+
+/* Maps */
+
+#map { height: 400px;
+    width: 80vb;
+     }
