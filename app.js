@@ -56,9 +56,9 @@ const sessionOptions = {
     },
 };
 
-app.get("/", (req, res) => {
-    res.send("Hi, I am rooting");
-});
+// app.get("/", (req, res) => {
+//     res.send("Hi, I am rooting");
+// });
 
 app.use(session(sessionOptions));
 app.use(flash());
